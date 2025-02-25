@@ -1,0 +1,39 @@
+{
+	"name": "actor-WebDataLogger",
+	"version": "0.0.0",
+	"description": "Logs all sensor data to remote URL",
+	"keywords": "Fabrica-IO, actor, data, logger",
+	"repository":
+	{
+	  "type": "git",
+	  "url": "https://github.com/FabricaIO/actor-WebDataLogger.git"
+	},
+	"authors":
+	[
+	  {
+		"name": "Sam Groveman",
+		"email": "SamGroveman@outlook.com",
+		"url": "https://github.com/FabricaIO"
+	  },
+	  {
+		"name": "Emily Knowles",
+		"url": "https://github.com/FabricaIO"
+	  }
+	],
+	"dependencies": {
+		"Webhook": "https://github.com/FabricaIO/util-Webhook"
+	  },
+	"license": "GPLv3",
+	"homepage": "https://github.com/FabricaIO",
+	"frameworks": "arduino",
+	"platforms": "*",
+	"fabrica-io" : {
+		"name": "WebDataLogger",
+		"type": 1,
+		"category": "DataLogger",
+		"libname": "WebDataLogger",
+		"includes": ["WebDataLogger"],
+		"description": "Sends all sensor data to remote URL",
+		"constructor": []
+	}
+  }
