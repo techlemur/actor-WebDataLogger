@@ -28,7 +28,7 @@
 	"frameworks": "arduino",
 	"platforms": "*",
 	"fabrica-io" : {
-		"name": "WebDataLogger",
+		"name": "DataLoggerWeb",
 		"type": 1,
 		"category": "DataLogger",
 		"libname": "WebDataLogger",
