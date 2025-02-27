@@ -1,6 +1,6 @@
 {
 	"name": "actor-WebDataLogger",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Logs all sensor data to remote URL",
 	"keywords": "Fabrica-IO, actor, data, logger",
 	"repository":
