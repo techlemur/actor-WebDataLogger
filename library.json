@@ -6,7 +6,7 @@
 	"repository":
 	{
 	  "type": "git",
-	  "url": "https://github.com/FabricaIO/actor-WebDataLogger.git"
+	  "url": "https://github.com/techlemur/actor-WebDataLogger.git"
 	},
 	"authors":
 	[
@@ -21,6 +21,7 @@
 	  }
 	],
 	"dependencies": {
+		"WebDataLogger": "https://github.com/techlemur/actor-WebDataLogger.git"
 		"Webhook": "https://github.com/FabricaIO/util-Webhook"
 	  },
 	"license": "GPLv3",
@@ -33,7 +34,7 @@
 		"category": "DataLogger",
 		"libname": "WebDataLogger",
 		"includes": ["WebDataLogger"],
-		"description": "Sends all sensor data to remote URL",
+		"description": "Sends all sensor data to remote test URL",
 		"constructor": []
 	}
   }
