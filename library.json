@@ -1,6 +1,6 @@
 {
 	"name": "actor-WebDataLogger",
-	"version": "0.0.1",
+	"version": "0.0.0",
 	"description": "Logs all sensor data to remote URL",
 	"keywords": "Fabrica-IO, actor, data, logger",
 	"repository":
@@ -21,7 +21,6 @@
 	  }
 	],
 	"dependencies": {
-		"WebDataLogger": "https://github.com/techlemur/actor-WebDataLogger.git",
 		"Webhook": "https://github.com/FabricaIO/util-Webhook"
 	  },
 	"license": "GPLv3",
@@ -34,7 +33,7 @@
 		"category": "DataLogger",
 		"libname": "WebDataLogger",
 		"includes": ["WebDataLogger"],
-		"description": "Sends all sensor data to remote test URL",
+		"description": "Sends all test sensor data to remote URL",
 		"constructor": []
 	}
   }
