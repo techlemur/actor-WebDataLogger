@@ -21,7 +21,7 @@
 	  }
 	],
 	"dependencies": {
-		"WebDataLogger": "https://github.com/techlemur/actor-WebDataLogger.git"
+		"WebDataLogger": "https://github.com/techlemur/actor-WebDataLogger.git",
 		"Webhook": "https://github.com/FabricaIO/util-Webhook"
 	  },
 	"license": "GPLv3",
